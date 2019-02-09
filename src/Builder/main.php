@@ -48,6 +48,6 @@ if ($argv[1] === "plain") {
 }
 function usage(): void
 {
-    echo 'Usage: PHP Main plain プレーンテキストで文書作成' . PHP_EOL;
-    echo 'Usage: PHP Main html HTMLテキストで文書作成' . PHP_EOL;
+    echo 'Usage: php main.php plain プレーンテキストで文書作成' . PHP_EOL;
+    echo 'Usage: php main.php html HTMLテキストで文書作成' . PHP_EOL;
 }
